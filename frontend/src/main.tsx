@@ -5,7 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App.tsx";
 import AppToolbar from '@Component/ui/Toolbar.tsx';
 import Pace from "./services/Pace.tsx";
-import Course from "./services/Course.tsx";
+import CourseAnalyst from "./services/CourseAnalyst.tsx";
 
 const ToolbarSection = <AppToolbar />
 
@@ -20,7 +20,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/course",
-    element: <Course />,
+    element: <CourseAnalyst />,
   },
   
 ]);
